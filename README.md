@@ -10,9 +10,6 @@ The workflow is fully **orchestrated with Apache Airflow**, using **AWS Glue for
 
 ---
 
-## 📌 Architecture
-![Architecture Diagram](docs/architecture_diagram.png)
-
 ### Key Components:
 1. **Amazon S3** – storage for raw taxi & weather data, processed hourly aggregates, and Athena query results.  
 2. **AWS Glue Jobs** – ETL transformation of taxi trips, and enrichment with weather data.  
