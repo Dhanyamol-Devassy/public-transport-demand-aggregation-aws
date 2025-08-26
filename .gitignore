@@ -1,0 +1,6 @@
+__pycache__/
+*.log
+*.zip
+*.env
+logs/
+.aws/
